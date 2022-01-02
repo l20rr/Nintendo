@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="switch" id="switch">
+        <div class="joycon joycon-left">
+            <div class="tigger"></div>
+            <div class="control"></div>
+            <div class="minus"></div>
+            <div class="joystick"></div>
+            <div class="squ"></div>
+            <div class="pad">
+                <div class="top"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="bottom"></div>
+            </div>
+
+        </div>
+        <div class="screen" id="scre">
+
+            <p>nintendo <br> <b>switch</b></p>
+            <div class="screen-border">
+                <h6 id="text" style="display: none;"> A -> Apresenta o Video <br> Y -> Apresenta a Foto <br> B -> Limpa a tela </h6>
+                <h3 id="SB" style="display: none;">
+                    &copy; nintendo Lucas
+                </h3>
+                <img src="./assets/zelda.jpg" id="Conteudo" style="display: none;">
+                <video class="vi" id="video" src="./assets/zelda2.mp4" frameborder="0" style="display: none;" autoplay muted></video>
+            </div>
+        </div>
+
+        <div class="joycon joycon-right">
+            <div class="tiggers"></div>
+            <div class="controlr"></div>
+            <div class="minusr">
+                <p>+</p>
+            </div>
+            <div class="joystickr"></div>
+            <div class="squr"></div>
+            <div class="padr">
+                <div class="top">
+                    <p onclick="nada()">B</p>
+                </div>
+                <div class="left">
+                    <p onclick="abrir()">A</p>
+                </div>
+                <div class="right">
+                    <p onclick="carConteudo() ">Y</p>
+                </div>
+                <div class="bottom">
+                    <p onclick="fecha()">X</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
